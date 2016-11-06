@@ -1,0 +1,65 @@
+{
+	 "For Loop": {
+		"prefix": "for",
+		"body": [
+            "for \\{set ${index} 0\\} \\{ \\$${index} < ${length} \\} \\{ incr ${index} \\} \\{",
+            "\t$0",
+            "}"
+		],
+		"description": "For Loop"
+	},
+	"Foreach Loop": {
+		"prefix": "foreach",
+		"body": [
+            "foreach ${var} ${list} \\{",
+            "\t$0",
+            "}"
+		],
+		"description": "Foreach Loop"
+	},
+	"If Condition": {
+		"prefix": "if",
+		"body": [
+            "if \\{${var}\\} \\{",
+            "\t$0",
+            "}"
+		],
+		"description": "If Condition"
+	},
+	"ElseIf Condition": {
+		"prefix": "elseif",
+		"body": [
+            "elseif \\{${var}\\} \\{",
+            "\t$0",
+            "}"
+		],
+		"description": "ElseIf Condition"
+	},
+	"Else Block": {
+		"prefix": "else",
+		"body": [
+            "else \\{",
+            "\t$0",
+            "}"
+		],
+		"description": "Else Block"
+	},
+	"Proc Block": {
+		"prefix": "proc",
+		"body": [
+            "proc ${name} \\{${args}\\} \\{",
+            "\t$0",
+            "}"
+		],
+		"description": "Proc Block"
+	},
+	"While Lopp": {
+		"prefix": "while",
+		"body": [
+            "while \\{${var}\\} \\{",
+            "\t$0",
+            "}"
+		],
+		"description": "While Loop"
+	}
+}

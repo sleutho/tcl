@@ -2,7 +2,7 @@
 	"name": "tcl",
 	"displayName": "TCL",
 	"description": "TCL Language Support",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "rashwell",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -38,6 +38,12 @@
 				"scopeName": "source.tcl",
 				"path": "./syntaxes/tcl.tmLanguage"
 			}
-		]
+		],
+        "snippets": [
+            {
+                "language": "tcl",
+                "path": "./snippets/tcl.json"
+            }
+        ]
 	}
 }
