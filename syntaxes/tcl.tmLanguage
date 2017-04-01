@@ -79,7 +79,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type.tcl</string>
+					<string>entity.name.function.tcl</string>
 				</dict>
 			</dict>
 			<key>match</key>
