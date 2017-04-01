@@ -429,7 +429,7 @@
 			<key>match</key>
 			<string>(\$)((?:[a-zA-Z0-9_]|::)+(\([^\)]+\))?|\{[^\}]*\})</string>
 			<key>name</key>
-			<string>variable.other.tcl</string>
+			<string>support.function.tcl</string>
 		</dict>
 		<key>numeric</key>
 		<dict>
