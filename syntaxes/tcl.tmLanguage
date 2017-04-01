@@ -54,7 +54,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?&lt;=^|[\[{;])\s*(if|while|for|catch|return|break|continue|switch|exit|foreach)\b</string>
+			<string>(?&lt;=^|[\[{;])\s*(if|while|for|catch|return|break|continue|switch|exit|foreach|try|throw)\b</string>
 		</dict>
 		<dict>
 			<key>captures</key>
