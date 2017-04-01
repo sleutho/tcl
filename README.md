@@ -1,6 +1,6 @@
-# TCL Language Support for VS Studio Code
+# Tcl Language Support for Visual Studio Code
 
-This extension adds rich language support for the TCL language. including so far
+This extension adds language support for the Tcl (Tool Command Language). Including so far
 
 - Colorization
 - Snippets

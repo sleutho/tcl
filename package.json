@@ -1,9 +1,10 @@
 {
 	"name": "tcl",
-	"displayName": "TCL",
-	"description": "TCL Language Support",
-	"version": "0.0.2",
+	"displayName": "Tcl",
+	"description": "Tcl Language Support",
+	"version": "0.0.3",
 	"publisher": "rashwell",
+	"icon": "images/Tcl-powered.svg",
 	"engines": {
 		"vscode": "^0.10.1"
 	},
