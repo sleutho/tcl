@@ -18,7 +18,7 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>(?&lt;=^|;)\s*(#)</string>
+			<string>(?&lt;=^|;)\s*((#))</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -54,7 +54,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?&lt;=^|[\[{;])\s*(if|while|for|catch|return|break|continue|switch|exit|foreach|try|throw)\b</string>
+			<string>(?&lt;=^|[\[{;])\s*(if|while|for|catch|default|return|break|continue|switch|exit|foreach|try|throw)\b</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -156,6 +156,14 @@
 		<dict>
 			<key>include</key>
 			<string>#variable</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#operator</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#numeric</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -422,6 +430,20 @@
 			<string>(\$)((?:[a-zA-Z0-9_]|::)+(\([^\)]+\))?|\{[^\}]*\})</string>
 			<key>name</key>
 			<string>variable.other.tcl</string>
+		</dict>
+		<key>numeric</key>
+		<dict>
+			<key>match</key>
+			<string>(?&lt;![a-zA-Z])([+-]?([0-9]*[.])?[0-9]+f?)(?![\.a-zA-Z])</string>
+			<key>name</key>
+			<string>constant.numeric.tcl</string>
+		</dict>
+		<key>operator</key>
+		<dict>
+			<key>match</key>
+			<string>(?&lt;= |\d)(-|\+|~|&amp;{1,2}|\|{1,2}|&lt;{1,2}|&gt;{1,2}|\*{1,2}|!|%|\/|&lt;=|&gt;=|={1,2}|!=|\^)(?= |\d)</string>
+			<key>name</key>
+			<string>keyword.operator.tcl</string>
 		</dict>
 	</dict>
 	<key>scopeName</key>
