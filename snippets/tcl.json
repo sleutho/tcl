@@ -2,7 +2,7 @@
 	 "For Loop": {
 		"prefix": "for",
 		"body": [
-            "for \\{set ${index} 0\\} \\{ \\$${index} < ${length} \\} \\{ incr ${index} \\} \\{",
+            "for {set ${index} 0\\} { \\$${index} < ${length} \\} { incr ${index} \\} {",
             "\t$0",
             "}"
 		],
@@ -11,7 +11,7 @@
 	"Foreach Loop": {
 		"prefix": "foreach",
 		"body": [
-            "foreach ${var} ${list} \\{",
+            "foreach ${var} ${list} {",
             "\t$0",
             "}"
 		],
@@ -20,7 +20,7 @@
 	"If Condition": {
 		"prefix": "if",
 		"body": [
-            "if \\{${var}\\} \\{",
+            "if {${var}\\} {",
             "\t$0",
             "}"
 		],
@@ -29,7 +29,7 @@
 	"ElseIf Condition": {
 		"prefix": "elseif",
 		"body": [
-            "elseif \\{${var}\\} \\{",
+            "elseif {${var}\\} {",
             "\t$0",
             "}"
 		],
@@ -38,7 +38,7 @@
 	"Else Block": {
 		"prefix": "else",
 		"body": [
-            "else \\{",
+            "else {",
             "\t$0",
             "}"
 		],
@@ -47,16 +47,16 @@
 	"Proc Block": {
 		"prefix": "proc",
 		"body": [
-            "proc ${name} \\{${args}\\} \\{",
+            "proc ${name} {${args}\\} {",
             "\t$0",
             "}"
 		],
 		"description": "Proc Block"
 	},
-	"While Lopp": {
+	"While Loop": {
 		"prefix": "while",
 		"body": [
-            "while \\{${var}\\} \\{",
+            "while {${var}\\} {",
             "\t$0",
             "}"
 		],
