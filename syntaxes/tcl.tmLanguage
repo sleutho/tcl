@@ -79,11 +79,11 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.tcl</string>
+					<string>entity.name.type.tcl</string>
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\s*(proc)\s+([^\s]+)</string>
+			<string>(?&lt;=^|{)\s*(proc)\s+([^\s]+)</string>
 		</dict>
 		<dict>
 			<key>captures</key>
