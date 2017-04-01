@@ -104,5 +104,39 @@
 			"}"
 		],
 		"description": "Class Create"
+	},
+	"tk_chooseDirectory": {
+		"prefix": "tk_chooseDirectory",
+		"body": [
+			"tk_chooseDirectory ${-initialdir dirname -mustexist boolean -title titleString}"
+		],
+		"description": "Choose Directory"
+	},
+	"tk_getOpenFile": {
+		"prefix": "tk_getOpenFile",
+		"body": [
+			"tk_getOpenFile -filetypes {",
+			"\t\t{{Text Files}       {.txt}        }",
+			"\t\t{{All Files}        *             }",
+			"\t}"
+		],
+		"description": "Open File Dialog"
+	},
+	"tk_getSaveFile": {
+		"prefix": "tk_getSaveFile",
+		"body": [
+			"tk_getSaveFile -filetypes {",
+			"\t\t{{Text Files}       {.txt}        }",
+			"\t\t{{All Files}        *             }",
+			"\t}"
+		],
+		"description": "Save File Dialog"
+	},
+	"tk_messageBox": {
+		"prefix": "tk_messageBox",
+		"body": [
+			"tk_messageBox ${-message msg}"
+		],
+		"description": "Message Box"
 	}
 }
