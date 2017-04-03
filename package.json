@@ -1,23 +1,20 @@
 {
 	"name": "tcl",
-	"displayName": "TCL",
-	"description": "TCL Language Support",
-	"version": "0.0.2",
-	"publisher": "rashwell",
+	"displayName": "Tcl",
+	"description": "Tcl language support",
+	"version": "0.2.0",
+	"publisher": "sleutho",
+	"icon": "images/Tcl-powered.svg",
 	"engines": {
 		"vscode": "^0.10.1"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/rashwell/tcl.git"
+		"url": "https://github.com/sleutho/tcl.git"
 	},
 	"categories": [
 		"Languages"
 	],
-	"galleryBanner": {
-		"color": "#9AB3CF",
-		"theme": "light"
-	},
 	"contributes": {
 		"languages": [
 			{
