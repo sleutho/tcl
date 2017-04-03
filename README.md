@@ -1,7 +1,13 @@
-# Tcl language support for Visual Studio Code
+# Tcl for Visual Studio Code
 
-This extension adds language support for the Tcl:
+- Language service
+  - Syntax highlighting
+  - Snippets
 
-- Colorization
-- Snippets
+If you run into any problems, please file an issue on [GitHub](https://github.com/sleutho/tcl).
 
+## Syntax highlighting
+![Syntax highlighting](images/syntax-highlight.png)
+
+## Snippets
+![Snippets](images/snippets.gif)
