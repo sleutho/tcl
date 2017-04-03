@@ -2,7 +2,7 @@
 	"name": "tcl",
 	"displayName": "Tcl",
 	"description": "Tcl Language Support",
-	"version": "0.0.3",
+	"version": "0.1.1",
 	"publisher": "rashwell",
 	"icon": "images/Tcl-powered.svg",
 	"engines": {
