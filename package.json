@@ -24,7 +24,8 @@
 					"tcl"
 				],
 				"extensions": [
-					".tcl"
+					".tcl",
+					".test"
 				],
 				"configuration": "./tcl.configuration.json"
 			}
